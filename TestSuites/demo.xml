@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="allSuites" verbose="1">
+    <parameter name="testDataFolder" value="TestData"></parameter>
+    <parameter name="environment" value="QA"></parameter>
+    <parameter name="dataMappingFileName" value="DataMappings.csv"></parameter>
+    <test name="tc004_VerifyGoogleSearchPageWithData1" verbose="1">
+        <groups>
+            <run>
+                <include name="tc003" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.automation.test.testcases.demo.web.ui.WebUITestDemo"></class>
+            <class name="com.automation.test.testcases.demo.web.ui.FoodScheduleTestCases.FoodSchedule_HN018_VerifySortResultByASConItemColumn"></class>
+        </classes>
+    </test>
+    <test name="Web API Test Demo" verbose="1">
+        <classes>
+            <class name="com.automation.test.testcases.demo.web.api.WebAPIDemo"></class>
+        </classes>
+    </test>
+
+</suite>

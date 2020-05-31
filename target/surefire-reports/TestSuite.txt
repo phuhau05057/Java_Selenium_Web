@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 13.076 s <<< FAILURE! - in TestSuite
+tc004_VerifyGoogleSearchPageWithData1(com.automation.test.testcases.demo.web.ui.WebUITestDemo)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.automation.test.testcases.demo.web.ui.WebUITestDemo.tc004_VerifyGoogleSearchPageWithData1(WebUITestDemo.java:53)
+
+tc004_VerifyGoogleSearchPageWithData1(com.automation.test.testcases.demo.web.ui.WebUITestDemo)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.automation.test.testcases.demo.web.ui.WebUITestDemo.tc004_VerifyGoogleSearchPageWithData1(WebUITestDemo.java:53)
+

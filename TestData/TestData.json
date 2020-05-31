@@ -1,0 +1,52 @@
+{
+  "Inventory_ADD_CreateNew_HN0001": {
+    "xlFilePath": "\\TestData\\QA\\Inventory\\HN001.xlsx",
+    "sheetName": "sheet1",
+    "specificRows": ""
+  },
+  "Inventory_Search_Existing_HN0002": {
+    "xlFilePath": "\\TestData\\QA\\Inventory\\HN002.xlsx",
+    "sheetName": "sheet1",
+    "specificRows": ""
+  },
+  "Inventory_Update_Existing_HN0003": {
+    "xlFilePath": "\\TestData\\QA\\Inventory\\HN003.xlsx",
+    "sheetName": "sheet1",
+    "specificRows": ""
+  },
+  "Inventory_Delete_Existing_HN0004": {
+    "xlFilePath": "\\TestData\\QA\\Inventory\\HN004.xlsx",
+    "sheetName": "sheet1",
+    "specificRows": ""
+  },
+  "Inventory_Search_NonExistingwithMessage_HN0006": {
+    "xlFilePath": "\\TestData\\QA\\Inventory\\HN006.xlsx",
+    "sheetName": "sheet1",
+    "specificRows": ""
+  },
+  "Inventory_Category_AddNew_HN0013": {
+    "xlFilePath": "\\TestData\\QA\\Inventory\\HN013.xlsx",
+    "sheetName": "sheet1",
+    "specificRows": ""
+  },
+  "Inventory_Category_Update_HN0014": {
+    "xlFilePath": "\\TestData\\QA\\Inventory\\HN014.xlsx",
+    "sheetName": "sheet1",
+    "specificRows": ""
+  },
+  "Inventory_Category_Delete_HN0015": {
+    "xlFilePath": "\\TestData\\QA\\Inventory\\HN015.xlsx",
+    "sheetName": "sheet1",
+    "specificRows": ""
+  },
+  "Inventory_Category_CanNotAddDuplicate_HN0016": {
+    "xlFilePath": "\\TestData\\QA\\Inventory\\HN016.xlsx",
+    "sheetName": "sheet1",
+    "specificRows": ""
+  },
+  "Inventory_Category_CanNotDelete_HN0017": {
+    "xlFilePath": "\\TestData\\QA\\Inventory\\HN017.xlsx",
+    "sheetName": "sheet1",
+    "specificRows": ""
+  }
+}

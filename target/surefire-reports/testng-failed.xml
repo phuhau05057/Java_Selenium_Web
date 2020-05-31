@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [allSuites]">
+  <parameter name="dataMappingFileName" value="DataMappings.csv"/>
+  <parameter name="environment" value="QA"/>
+  <parameter name="testDataFolder" value="TestData"/>
+  <test thread-count="5" verbose="0" name="tc004_VerifyGoogleSearchPageWithData1(failed)">
+    <groups>
+      <run>
+        <include name="tc003"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.automation.test.testcases.demo.web.ui.WebUITestDemo">
+        <methods>
+          <include name="tc004_VerifyGoogleSearchPageWithData1" invocation-numbers="0 1"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.automation.test.testcases.demo.web.ui.WebUITestDemo -->
+    </classes>
+  </test> <!-- tc004_VerifyGoogleSearchPageWithData1(failed) -->
+</suite> <!-- Failed suite [allSuites] -->
